@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	./autogen.sh
+	make clean
+	make distclean
+	./configure --prefix=/usr --disable-mime-update --libdir=/usr/lib${LIBDIRSUFFIX} LIBS='-ldl -lm'
+
+override_dh_install:
+	dh_install --sourcedir=debian/tmp

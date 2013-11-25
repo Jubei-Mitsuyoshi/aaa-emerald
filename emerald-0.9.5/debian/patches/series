@@ -1,0 +1,4 @@
+02_improve_desktop_file.patch
+04_manpage.patch
+05_build_without_gtk_disable_deprecated.patch
+#06_adjust_to_new_compiz.patch
