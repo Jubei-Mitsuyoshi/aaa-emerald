@@ -1,7 +1,7 @@
 Source: emerald
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 XSBC-Original-Maintainer: Nicholas Thomas <lupine@beryl-project.org>
 Build-Depends: debhelper (>= 5), cdbs, dh-autoreconf, intltool,
  compizconfig-settings-manager, libwnck1.0-cil-dev, libgtk2.0-dev,
@@ -20,6 +20,9 @@ Provides: gcompizthemer, cgwd
 Recommends: emerald-themes
 Description: Decorator for compiz-fusion
  This package provides a decorator for compiz-fusion and a themer application
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
 
 Package: libemeraldengine0
 Architecture: any
@@ -35,3 +38,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, libemeraldengine0 (=${binary:Versio
 Description: Development files for emerald engines
  This package contains the headers and development files needed to
  build engines for emerald.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
