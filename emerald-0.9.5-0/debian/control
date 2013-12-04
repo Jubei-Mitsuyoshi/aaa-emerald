@@ -22,7 +22,7 @@ Description: Decorator for compiz-fusion
  This package provides a decorator for compiz-fusion and a themer application
  .
  The *aaa versions of this package are specially modified for debian and aaa
- if running a ubuntu box please use the regular compiz from ubuntu repositories.
+ if running a ubuntu box please use the regular emerald from ubuntu repositories.
 
 Package: libemeraldengine0
 Architecture: any
@@ -40,4 +40,4 @@ Description: Development files for emerald engines
  build engines for emerald.
  .
  The *aaa versions of this package are specially modified for debian and aaa
- if running a ubuntu box please use the regular compiz from ubuntu repositories.
+ if running a ubuntu box please use the regular emerald from ubuntu repositories.
